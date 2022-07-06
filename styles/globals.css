@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Crimson+Text:wght@400;600;700&family=Josefin+Slab:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    user-select: none;
+  -webkit-user-select: none; /*Safari*/
+  -moz-user-select: none; /*Firefox*/   
+}
+
+@layer base {
+    * {
+
+    }
+
+    body {
+        @apply font-fancy
+    }
+
+    h1,h2,h3,h4,h5,h6 {
+        @apply font-heading
+    }
+}
