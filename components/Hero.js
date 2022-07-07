@@ -16,13 +16,13 @@ const tempLinks = [
         excerpt: 'Newest: Sculpture exhibition',
         cover: 'https://images.pexels.com/photos/460736/pexels-photo-460736.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     },
-    {   route: '/events/details',
+    {   route: '/tours/details',
         name: 'tours',
         title: 'the first louvre',
         excerpt: 'Approx. 1.5 hours - Eng.',
         cover: 'https://images.pexels.com/photos/2939793/pexels-photo-2939793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     },
-    {   route: '/events/details',
+    {   route: '/art-of-the-day/details',
         name: 'art of the day',
         title: 'the louve collection',
         excerpt: 'Andrea Mangeta and Parnasus',
@@ -45,7 +45,7 @@ export default function Hero() {
                 </SplideSlide>
             ))}
         </Splide> */}
-        <img className="animate animate__animated animate__fadeIn animate__delay-2s fixed h-screen w-screen object-cover object-top" src={slideImages[0]} />
+        <img className="animate animate__animated animate__fadeIn fixed h-screen w-screen object-cover object-top" src={slideImages[0]} />
         <div className="fixed h-screen w-screen bg-gradient-to-tr from-gray-900 to-black/40" />
         {/* end elements */}
         <section className="max-w-[1440px] h-full w-full mx-auto pt-60 px-8 z-20">
